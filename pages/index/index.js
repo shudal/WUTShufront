@@ -21,6 +21,10 @@ Page({
   },
   tapToNavigate: function(event) {
     var cat = event.currentTarget.dataset['cat'];
+    wx.redirectTo({
+      url: '../../pages/list/index?catcode=' + cat
+    });
+    /*
     var source = this
     qq.showLoading({title:"加载中"})
     qq.request({
@@ -36,6 +40,7 @@ Page({
       success(res){source.handlerRes(res, cat)},
       complete:function(res) {qq.hideLoading()},
     })
+     */
   },
   handlerRes: function(res,cat) {
     if (!res.data || res.data.code != 0) {
