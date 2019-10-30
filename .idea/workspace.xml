@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fc248ec-e597-4a94-a544-e4aeef66f634" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.qml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.qml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/search/index.qml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list/index.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/list/index.qml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list/index.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/list/index.qss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list/index.qss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +28,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../wechat" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\pro\qq\WUTShuChuanBei\static" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\pro\qq\WUTShuChuanBei\static" />
     </key>
   </component>
@@ -59,7 +57,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572404419401</updated>
-      <workItem from="1572404423194" duration="5509000" />
+      <workItem from="1572404423194" duration="6763000" />
+      <workItem from="1572415109507" duration="6584000" />
     </task>
     <servers />
   </component>
@@ -71,7 +70,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

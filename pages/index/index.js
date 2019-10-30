@@ -16,12 +16,16 @@ Page({
   },
   tapToCloseSearch: function(event){
     this.setData({
+
+
+
+      
       isSearching:false
     })
   },
   tapToNavigate: function(event) {
     var cat = event.currentTarget.dataset['cat'];
-    wx.redirectTo({
+    wx.navigateTo({
       url: '../../pages/list/index?catcode=' + cat
     });
     /*
