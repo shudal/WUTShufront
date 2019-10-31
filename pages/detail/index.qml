@@ -1,29 +1,45 @@
 <view class="header">
-  <view class="time-area">
-    <view class="day">{{currentArticle.date.date}}</view>
-    <text>|</text>
-    <view class="yearAndMonth">
-      <view class="month">{{currentArticle.date.month}}</view>
-      <view class="year">{{currentArticle.date.year}}</view>
-    </view>
-  </view>
-  <text class="iconfont icon-like"></text>
-</view>
-<image src="{{currentArticle.img}}" mode="aspectFit" />
-
-<view class="back-img"></view>
-<view class="text-container">
-  <view class="text">
-  <view qq:for="{{currentArticle.contentList}}" qq:key="{{item}}">
-  {{item}}
-  </view>
-  </view>
+  <view class="title">远方</view>
+  <view class="like">加入文集</view>
 </view>
 
-<view class="page">
-  <view class="left {{page<=1?'leftDisabled':'leftActive'}}" bindtap="prePage"></view>
-  <view class="title">
-    {{currentArticle.title}}
+<view class="text-container negative">
+  <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2018939532,1617516463&fm=26&gp=0.jpg" mode="aspectFill" />
+  <view class="short">
+    <view>我卡上节阿斯顿点</view>
+    <view>我卡上爱上x节点</view>
+    <view>我卡上爱阿斯顿上节点</view>
+    <view>我卡上修复啊节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上撒的节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上阿斯顿节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上阿斯顿节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上节阿斯顿点</view>
+    <view>我卡上爱上x节点</view>
+    <view>我卡上爱阿斯顿上节点</view>
+    <view>我卡上修复啊节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上撒的节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上阿斯顿节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上阿斯顿节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上节点</view>
+    <view>我卡上节点</view>
   </view>
-  <view class="right {{page>=allPage?'rightDisabled':'rightActive'}}" bindtap="nextPage"></view>
 </view>
