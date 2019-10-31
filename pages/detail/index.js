@@ -32,7 +32,7 @@ Page({
     } else {
       article.content = data.content
     }
-
+    article.type = data.type
     article.title = data.title
     article.bincat = data.bincat
     article.img = data.img
