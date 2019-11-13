@@ -40,20 +40,25 @@ image {
 }
 
 .positive {
-  background-color:#f6eccb;
+  /* background-color:#f6eccb; */
+  background:linear-gradient(to right, #ffeeee, #ddefbb);
 }
 .negative {
-  background-color:#151718;
+  /* background-color:#151718; */
+  background:linear-gradient(to right, #000000, #434343);
   color:gray;
 }
 .silent {
-  background-color:#e5f1e5;
+  /* background-color:#e5f1e5; */
+  background:linear-gradient(to right, #abbaab, #ffffff);
 }
-.active {
-  background-color:#f5e4e3;
+.exciting {
+  /* background-color:#f5e4e3; */
+  background:linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
 }
 .angry {
-  background-color:#ffd0cc;
+  /* background-color:#ffd0cc; */
+  background:linear-gradient(to right, #556270, #ff6b6b);
 }
 /* #f6eccb */
 /* #e5f1e5 */
