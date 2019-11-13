@@ -27,9 +27,12 @@ image {
 }
 
 .text-container {
-  font-size:15px;
+  font-size:18px;
+  line-height:25px;
   margin:0;
+  min-height:70vh;
   padding-bottom:30vh;
+  font-family: "KaiTi","STKaiti";
 }
 .text-container .short >view {
   text-align:center;
